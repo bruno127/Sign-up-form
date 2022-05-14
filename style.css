@@ -1,0 +1,126 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+}
+.logo {
+    height: 15vh;
+}
+
+.oculus {
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.picture {
+    width: 40vw;
+    height: 100%;
+    background-image: url(restoran.jpg);
+    background-size: cover;
+    
+}
+.picture-footer {
+    position: relative;
+    top:97%;
+    width: 40vw;
+    text-align: center;
+}
+.picture-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    width: 40vw;
+    background-color: bisque;
+    opacity: 0.5;
+    
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    padding: 30px;
+    gap: 4rem;
+    color: black;
+    background-color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
+}
+label {
+    font-size: 2rem;
+}
+.text {
+    width: 47vw;
+    font-size: 2rem;
+    
+}
+.form-title {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.form-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px;
+    width: 45vw;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 15vw;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.content-two {
+    margin-top: 50px;
+}
+
+.text-two {
+    margin-top: 20px;
+}
+
+.right-button {
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 1.5rem;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.fa-github {
+    color: var(--primary-light);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+  }
+
